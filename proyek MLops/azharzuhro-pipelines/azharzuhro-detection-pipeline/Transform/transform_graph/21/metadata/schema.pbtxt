@@ -1,0 +1,42 @@
+feature {
+  name: "label"
+  type: INT
+  bool_domain {
+  }
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "tweet"
+  type: BYTES
+  domain: "tweet"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+string_domain {
+  name: "tweet"
+  value: "Contemplating giving in to the iPhone bandwagon simply because #Cellcom has no new Androids #depressing #IDontWantTo"
+  value: "Finally a transparant silicon case ^^ Thanks to my uncle :) #yay #Sony #Xperia #S #sonyexperias\342\200\246 http://instagram.com/p/YGEt5JC6JM/"
+  value: "Ha! Not heavy machinery but it does what I need it to. @Apple really dropped the ball with that design. #drinkyourhaterade"
+  value: "I just made another crazy purchase lol my theory is \'Work hard, Play Hard\' Lol #iPad #Apple #Shopping http://instagr.am/p/NUyFHvyE7I/"
+  value: "I\'m wired I know I\'m George I was made that way ;) #iphone #cute #daventry #home http://instagr.am/p/Li_5_ujS4k/"
+  value: "We love this! Would you go? #talk #makememories #unplug #relax #iphone #smartphone #wifi #connect... http://fb.me/6N3LsUpCu"
+  value: "What amazing service! Apple won\'t even talk to me about a question I have unless I pay them $19.95 for their stupid support!"
+  value: "hey #apple when you make a new ipod dont make it a new color or .2inches thinner make it not crash every five fuckin minite."
+  value: "iPhone software update fucked up my phone big time Stupid iPhones"
+  value: "#fingerprint #Pregnancy Test https://goo.gl/h1MfQV #android #apps #beautiful #cute #health #igers #iphoneonly #iphonesia #iphone"
+}
